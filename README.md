@@ -8,11 +8,11 @@ Here is the basic usage information:
 
 ```
 Usage: dnaspew [ --block-size=<int> (default: 1024)
-                --block-count=<int> (default: 1)
-                --width=<int> (default: 64)
-                --full-random (default: false)
-                --benchmark (default: false)
-                --help ]
+                 --block-count=<int> (default: 1)
+                 --width=<int> (default: 64)
+                 --full-random (default: false)
+                 --benchmark (default: false)
+                 --help ]
 ```
 
 If you provide no arguments, it will just spew 1 block of 1KiB of sequence text (64 chars wide) to the standard output like the following:
