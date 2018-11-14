@@ -25,7 +25,7 @@ proc main() =
     option full_random, bool, "full-random", "r", false
     option benchmark, bool, "benchmark", "b", false
     exitoption "help", "h",
-               "Usage: nimdna [ --block-size=<int> (default: 1024)\n" &
+               "Usage: dnaspew [ --block-size=<int> (default: 1024)\n" &
                "                --block-count=<int> (default: 1)\n" &
                "                --width=<int> (default: 64)\n" &
                "                --full-random (default: false)\n" &
