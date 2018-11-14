@@ -26,11 +26,11 @@ proc main() =
     option benchmark, bool, "benchmark", "b", false
     exitoption "help", "h",
                "Usage: dnaspew [ --block-size=<int> (default: 1024)\n" &
-               "                --block-count=<int> (default: 1)\n" &
-               "                --width=<int> (default: 64)\n" &
-               "                --full-random (default: false)\n" &
-               "                --benchmark (default: false)\n" &
-               "                --help ]"
+               "                 --block-count=<int> (default: 1)\n" &
+               "                 --width=<int> (default: 64)\n" &
+               "                 --full-random (default: false)\n" &
+               "                 --benchmark (default: false)\n" &
+               "                 --help ]"
     errormsg "Error: please use --help for usage information"
 
   if width >= block_size:
