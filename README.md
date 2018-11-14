@@ -7,7 +7,7 @@ This is just a simple utility to very quickly generate random blocks of fake DNA
 Here is the basic usage information:
 
 ```
-Usage: nimdna [ --block-size=<int> (default: 1024)
+Usage: dnaspew [ --block-size=<int> (default: 1024)
                 --block-count=<int> (default: 1)
                 --width=<int> (default: 64)
                 --full-random (default: false)
