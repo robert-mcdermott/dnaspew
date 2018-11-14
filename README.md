@@ -1,6 +1,6 @@
 # DNASpew 
 
-### Generate random DNA squences for fun and benchmarking stroage systems
+### Generate random DNA sequences for fun and benchmarking storage systems 
 
 This is just a simple utility to very quickly generate random blocks of fake DNA sequences for testing storage systems (performance, compression/de-dupe rates or just filling up your disks). The Nim source code is provided in the /src directory, or you can just use the precompiled binaries availible under /bin.
 
