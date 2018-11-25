@@ -42,6 +42,7 @@ proc main() =
   for x in 1..blocks:
     if not full_random:
       stdout.write(dnablock)
+      stdout.write("\n")
     else:
       stdout.write(dnablock(block_size, width))
   
